@@ -5,5 +5,5 @@ When I download Unitex in MacOS, I can't open the file Unitex-GramLab-3.3-osx.ru
 This is how I solve the problem of running the file .run :
 
 ```cd ~/Desktop
-chmod +x  filename.run
-./filename.run
+  chmod +x  filename.run
+  ./filename.run
