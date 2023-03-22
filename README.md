@@ -69,4 +69,4 @@ If you find that an application in Launchpad doesn't have an icon or the icon is
     ```
     killall Dock
     ```
-6.Check if the icon is displayed. After completing the above steps, you should be able to see the icon of your application in Launchpad.
+6. Check if the icon is displayed. After completing the above steps, you should be able to see the icon of your application in Launchpad.
