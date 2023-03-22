@@ -41,7 +41,7 @@ sudo mkdir /Applications/Unitex.app
 
 3. Create a file `Resources` in the file `Contents` and copy the .icns file to the following location: 
 ```
-/Applications/NewDirectory/Unitex.app/Contents/Resources/
+/Applications/Unitex.app/Contents/Resources/
 ```
 4. Update the Info.plist File :
 Open Terminal and navigate to your application's package directory by running the following command :
