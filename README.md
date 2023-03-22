@@ -34,39 +34,39 @@ If you find that an application in Launchpad doesn't have an icon or the icon is
 ## Steps
 
 1. Open Terminal and use the following command to create Unitex's package directory :
-```
-sudo mkdir /Applications/Unitex.app
-```
+    ```
+    sudo mkdir /Applications/Unitex.app
+    ```
 2. Copy the "App" file to this application package and change the file name to `Contents`. So you will have all the contents in path `/Applications/Unitex.app/Contents/`. 
 
 3. Create a file `Resources` in the file `Contents` and copy the .icns file to the following location: 
-```
-/Applications/Unitex.app/Contents/Resources/
-```
-4. Update the Info.plist File :
-Open Terminal and navigate to your application's package directory by running the following command :
-```
-cd /Applications/Unitex.app/Contents/
-```
-Open the Info.plist file in a text editor by running the following command :
-```
-nano Info.plist
-```
-Add the following key-value pair to the file and save the change :
-```
-<dict>
-    <key>CFBundleExecutable</key>
-    <string>Unitex</string>
-    <key>CFBundleIconFile</key>
-    <string>Unitex.icns</string>
-</dict>
-```
-In the nano editor, press "Ctrl" and "O" keys, then press "Enter" to save the file. 
+    ```
+    /Applications/Unitex.app/Contents/Resources/
+    ```
+4. Update the `Info.plist` File :
+    - Open Terminal and navigate to your application's package directory by running the following command :
+    ```
+    cd /Applications/Unitex.app/Contents/
+    ```
+    - Open the Info.plist file in a text editor by running the following command :
+    ```
+    nano Info.plist
+    ```
+    - Add the following key-value pair to the file and save the change :
+    ```
+    <dict>
+        <key>CFBundleExecutable</key>
+        <string>Unitex</string>
+        <key>CFBundleIconFile</key>
+        <string>Unitex.icns</string>
+    </dict>
+    ```
+    - In the nano editor, press "Ctrl" and "O" keys, then press "Enter" to save the file. 
 
-Then, press "Ctrl" and "X" keys to close the editor.
+    - Then, press "Ctrl" and "X" keys to close the editor.
 
 5. Restart the Dock process. Use the following command to restart the Dock process :
-```
-killall Dock
-```
+    ```
+    killall Dock
+    ```
 6.Check if the icon is displayed. After completing the above steps, you should be able to see the icon of your application in Launchpad.
